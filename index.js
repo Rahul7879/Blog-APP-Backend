@@ -17,4 +17,5 @@ const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
 const URL = process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@mern-projects.a1khghl.mongodb.net/?retryWrites=true&w=majority`
+
 Connection(URL);
